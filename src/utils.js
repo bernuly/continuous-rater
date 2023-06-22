@@ -30,9 +30,9 @@ export const studyTasks = 'Rate video emotional content'; // brief summary of HI
 export const experiment = 'EVrating'; // name of experiment (should match collection name in firebase)
 
 // HIT variables
-export const HITPay = '3'; // pay for HIT completion (format as X.XX with no dollar sign)
+export const HITPay = '1'; // pay for HIT completion (format as X.XX with no dollar sign)
 export const userGroup = 'MTurk Group'; // name of collection of participants for current HIT
-export const estHITTime = '3'; // estimated time to complete HIT (in minutes)
+export const estHITTime = '2'; // estimated time to complete HIT (in minutes)
 export const totalHITTime = estHITTime * 2; // total time provided for HIT (in minutes)
 
 // stimuli variables      
